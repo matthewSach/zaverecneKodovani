@@ -90,7 +90,6 @@ nav{
     padding: 7px;
     font-size: 13px;
     border-radius: 5px;
-
     font-weight: 600;
 }
 
@@ -167,7 +166,7 @@ nav{
     line-height: 50px;
     cursor: pointer;
     transition: all linear 0.1s;
-
+    font-weight: bold;
 }
 
 .fa-plus{
@@ -177,7 +176,7 @@ nav{
     transition: all linear 0.1s;
 }
 .question:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #8c8b8b;
 }
 .question:hover .fa-plus {
     transform: scale(1.2)!important;
@@ -189,4 +188,175 @@ footer{
     height: 140px;
     background-color: #000;
     margin-bottom: 30px;
+}
+
+/* CONTACT PAGE */
+
+.contact-heading {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.banners{
+    width: 70%;
+    margin: 80px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.banner-container{
+    padding: 9px;
+    transform: scale(1.15);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: all linear 0.2s;
+    margin: 0 10px;
+}
+
+.banner-container:hover{
+    scale: 1.05;
+}
+
+.type-of-sub{
+    font-size: 12px;
+}
+
+.price{
+    font-size: 35px;
+    margin: 10px 0;
+    font-weight: bold;
+
+}
+
+.benefits{
+    list-style: none;
+}
+
+.benefit{
+    font-size: 15px;
+}
+
+.fa-check{
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+/* references */
+
+.reference{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.ref-heading{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}   
+
+.ref-content{
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.ref-person{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px auto;
+    width: 30%;  
+}
+
+.ref-per-foto{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.per-profile{
+    display: flex;
+    flex-direction: column;
+}
+.ref-per-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ref-per-prof{
+    font-size: 12px;
+    color: #8c8b8b;
+}
+
+/* Contact */
+.contact-form-section{
+    width: 70%;
+    margin: 110px auto;
+    margin-bottom: 30px;
+}
+.contact-form-section h2{
+    margin: 15px auto;
+}
+
+form{
+    padding: 8px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.user-name-inputs{
+    display: flex;
+    
+}
+input{
+    width: 50%;
+    height: 45px;
+    padding: 6px;
+    outline: none;
+    border: none;
+    background: #f4f4f4;
+    border-radius: 5px;
+
+}
+input:nth-child(1){
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+input:nth-child(2){
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 130px;
+    padding: 6px;
+    outline: none;
+    border: none;
+    background: #f4f4f4;
+    border-radius: 10px;
+    
+}
+
+button{
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    color: #fff;
+    background-color: #161616;
+    border-radius: 5px;
+
+    margin: 5px 0;
 }
