@@ -427,8 +427,47 @@ textarea:focus{
     display: flex;
     width: 70%;
     margin: 90px auto;
+    flex-wrap: wrap;
+    padding: 3px;
+    justify-content: center;
+
+}
+
+.value{
+    width: 25%;
+    margin: 13px;
+}
+.value h4{ 
+    margin: 8px 0;
+}
+.value p{
+    color: #777777;
+}
+
+.value img {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
 }
 
 .trusted-by-section{
+    width: 40%;
+    margin: 90px auto;
 
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.partner{
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #777777;
+}
+.fa-part{
+    margin-right: 5px;
 }
