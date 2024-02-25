@@ -118,7 +118,7 @@ button{
 }
 
 .detailing-img{
-    height: 145px;
+    height: auto;
 }
 .detailing-img img{
     width: 100%;
@@ -414,7 +414,7 @@ textarea:focus{
 
 .base-foto{
     width: 60%;
-    height: 300px;
+    height: auto;
 }
 
 .base-foto img {
