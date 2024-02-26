@@ -35,7 +35,7 @@ nav {
     width: 10%;
 }
 
-.sp-link-bars{
+.sp-link-bars {
     display: none;
     color: white;
 }
@@ -501,7 +501,7 @@ textarea:focus {
 }
 
 /* Query pro všechny menší zařízení */
-@media only creen and (max-width: 1200px){
+@media only creen and (max-width: 1200px) {
     nav {
         height: 10vh;
     }
@@ -537,17 +537,23 @@ textarea:focus {
     }
 
     /* Vice info top */
-    .our-service{
+    .our-service {
         width: 98%;
     }
 
-    .reason{
+    .reason {
         width: 50%;
     }
 
     /* Vice info perks */
-    .perk-section{
+    .perk-section {
         width: 100%;
+    }
+
+    /* Banners */
+    .banners {
+        height: 90vh;
+        flex-wrap: wrap;
     }
 
     /* Detailing */
@@ -563,6 +569,11 @@ textarea:focus {
         scale: 100%;
     }
 
+    /* Ref content */
+    .reference {
+        width: 55%;
+    }
+
     /* Kontakt */
     .button {
         padding: 15px;
@@ -570,11 +581,11 @@ textarea:focus {
     }
 
     /* Vice info trusted by */
-    .trusted-by-section{
+    .trusted-by-section {
         width: 80%;
     }
 
-    .partner{
+    .partner {
         font-size: 32px;
     }
 }
@@ -592,7 +603,7 @@ textarea:focus {
         justify-content: space-between;
     }
 
-    .link{
+    .link {
         display: none;
     }
 
@@ -600,31 +611,37 @@ textarea:focus {
         display: block;
     }
 
-    .sp-link-bars{
+    .sp-link-bars {
         display: block;
         font-size: 25px;
     }
 
     /* Welcome screen */
-    .welcome-container{
+    .welcome-container {
         width: 80%;
     }
 
-    .welcome-container p{
+    .welcome-container p {
         font-size: 15px;
     }
 
-    .main-heading{
+    .main-heading {
         font-size: 30px;
     }
 
-    .button{
+    .button {
         padding: 10px;
+    }
+
+    /* Banners */
+    .banners {
+        flex-direction: column;
+        height: 150vh;
     }
 
     /* Vice info top */
 
-    .base-foto{
+    .base-foto {
         margin-left: 25px;
         height: 125vh;
     }
@@ -636,7 +653,7 @@ textarea:focus {
         object-fit: cover;
     }
 
-    .reason{
+    .reason {
         width: 50%;
     }
 
@@ -648,7 +665,7 @@ textarea:focus {
         scale: 200%;
     }
 
-    .smaller-btns{
+    .smaller-btns {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -656,64 +673,77 @@ textarea:focus {
     }
 
     /* Detailing */
-    .detailing-section{
+    .detailing-section {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         margin: 25px auto;
     }
 
-    .detailing-con{
+    .detailing-con {
         padding-top: 25px;
     }
 
-    .detailing-con{
+    .detailing-con {
         width: 85%;
     }
 
-    .detailing-con h3{
+    .detailing-con h3 {
         font-size: 20px;
     }
 
-    .detailing-con p{
+    .detailing-con p {
         width: 100%;
     }
 
-    .detailing-img img{
+    .detailing-img img {
         border-radius: 15px;
     }
 
     /* Perk section */
 
-    .perk-section{
+    .perk-section {
         width: 100%;
         flex-direction: column;
         align-content: center;
     }
 
-    .value{
+    .value {
         width: 60%;
     }
 
     /* Kontakt */
-    .btn-con{
+    .btn-con {
         display: flex;
         justify-content: space-between;
         width: 100%;
     }
 
-    .button{
+    .button {
         width: auto;
         height: auto;
         margin: 0px;
     }
 
     /* Refs */
-    .ref-heading{
-        width: 100vw;
+    .ref-heading {
+        width: 100%;
     }
 
-    .trusted-by-section{
+    .trusted-by-section {
+        width: 100%;
+    }
+
+    .reference {
+        width: 100%;
+    }
+
+    .contact-form-section {
+        width: 100%;
+    }
+
+    /* Form */
+    form {
         width: 100%;
     }
 }
