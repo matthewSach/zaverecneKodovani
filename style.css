@@ -536,6 +536,20 @@ textarea:focus {
         width: 50%;
     }
 
+    /* Vice info top */
+    .our-service{
+        width: 98%;
+    }
+
+    .reason{
+        width: 50%;
+    }
+
+    /* Vice info perks */
+    .perk-section{
+        width: 100%;
+    }
+
     /* Detailing */
     .detailing-con p {
         width: 100%;
@@ -553,6 +567,15 @@ textarea:focus {
     .button {
         padding: 15px;
         font-size: 11px;
+    }
+
+    /* Vice info trusted by */
+    .trusted-by-section{
+        width: 80%;
+    }
+
+    .partner{
+        font-size: 32px;
     }
 }
 
@@ -599,6 +622,39 @@ textarea:focus {
         padding: 10px;
     }
 
+    /* Vice info top */
+
+    .base-foto{
+        margin-left: 25px;
+        height: 125vh;
+    }
+
+    .base-foto img {
+        width: 150px;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    .reason{
+        width: 50%;
+    }
+
+    .reason p {
+        font-size: 12px;
+    }
+
+    .small-btn {
+        scale: 200%;
+    }
+
+    .smaller-btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+    }
+
     /* Detailing */
     .detailing-section{
         flex-direction: column;
@@ -627,6 +683,18 @@ textarea:focus {
         border-radius: 15px;
     }
 
+    /* Perk section */
+
+    .perk-section{
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .value{
+        width: 60%;
+    }
+
     /* Kontakt */
     .btn-con{
         display: flex;
@@ -638,5 +706,14 @@ textarea:focus {
         width: auto;
         height: auto;
         margin: 0px;
+    }
+
+    /* Refs */
+    .ref-heading{
+        width: 100vw;
+    }
+
+    .trusted-by-section{
+        width: 100%;
     }
 }
